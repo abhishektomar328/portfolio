@@ -55,7 +55,6 @@ html, body {
   font-size: 24px;
   cursor: pointer;
 }
-
 .content {
   padding: 40px 20px;
   width: 100%;
@@ -63,14 +62,12 @@ html, body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .sidebar.closed {
   transform: translateX(100%);
 }
 .content.full-width {
   margin-right: 0;
 }
-
 @media (max-width: 768px) {
   .content {
     margin-right: 0;
@@ -79,7 +76,6 @@ html, body {
     width: 200px;
   }
 }
-
 .section {
   margin-bottom: 40px;
   padding: 30px;
@@ -88,18 +84,15 @@ html, body {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
   transition: box-shadow 0.3s ease;
 }
-
 .section:hover {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
-
 h2 {
   font-size: 32px;
   color: #333;
   margin-bottom: 20px;
   position: relative;
 }
-
 h2::after {
   content: "";
   display: block;
@@ -109,13 +102,11 @@ h2::after {
   margin-top: 8px;
   border-radius: 2px;
 }
-
 p, li {
   font-size: 17px;
   color: #444;
   line-height: 1.6;
 }
-
 .skills-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -133,8 +124,6 @@ p, li {
   gap: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
-
 .project-card {
   background-color: #fafafa;
   border-left: 5px solid #007bff;
@@ -143,34 +132,27 @@ p, li {
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 24px rgba(0, 123, 255, 0.1);
 }
-
 a {
   color: #007bff;
   text-decoration: none;
   font-weight: 500;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
 .reveal {
   opacity: 0;
   transform: translateY(40px);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
-
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
 }
-
-
 .dot-wrapper {
   position: fixed;
   top: 0;
@@ -181,7 +163,6 @@ a:hover {
   z-index: 9999;
   overflow: hidden;
 }
-
 .dot {
   position: absolute;
   width: 6px;
@@ -193,7 +174,6 @@ a:hover {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
-
 @keyframes dot-zigzag {
   0% {
     transform: translateX(0) translateY(0);
@@ -211,7 +191,6 @@ a:hover {
     transform: translateX(0) translateY(0);
   }
 }
-
 .typing-wrapper {
   display: flex;
   align-items: flex-end;
@@ -219,24 +198,20 @@ a:hover {
   gap: 0.5rem;
   width: 100%;
 }
-
 #animatedText {
   margin: 0;
   display: inline;
 }
-
 .typing-icon {
-  font-size: 20px; /* increase size */
-  color:rgb(91, 91, 211);  /* stylish pink tone or pick your preferred color */
-  margin-bottom: 2px; /* fine-tune vertical alignment */
+  font-size: 20px; 
+  color:rgb(91, 91, 211);  
+  margin-bottom: 2px; 
 }
-
 @keyframes blink {
   50% {
     opacity: 0;
   }
 }
-
 .animated-gradient-text {
   background: linear-gradient(90deg, #00dbde, #fc00ff, #00dbde);
   background-size: 300% 300%;
@@ -247,7 +222,6 @@ a:hover {
   font-weight: bold;
   font-size: 1.3rem;
 }
-
 @keyframes gradientShift {
   0% {
     background-position: 0% 50%;
@@ -259,19 +233,16 @@ a:hover {
     background-position: 0% 50%;
   }
 }
-
 .connect-heading {
   margin-top: 2rem;
   font-size: 1.2rem;
 }
-
 .connect-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 1rem;
 }
-
 .connect-buttons a {
   display: flex;
   align-items: center;
@@ -281,7 +252,6 @@ a:hover {
   border-radius: 8px;
   font-weight: 500;
 }
-
 @keyframes pulse-icon {
   0% {
     transform: scale(1);
@@ -293,12 +263,10 @@ a:hover {
     transform: scale(1.7);
   }
 }
-
 .pulse-icon {
   animation: pulse-icon 1.5s infinite ease-in-out;
   display: inline-block;
 }
-
 .coding-platforms {
   margin-top: 12px;
   display: flex;
@@ -306,7 +274,6 @@ a:hover {
   align-items: center;
   gap: 20px;
 }
-
 .headline-impact {
   font-size: 1.6rem;
   font-weight: 700;
@@ -320,7 +287,6 @@ a:hover {
   letter-spacing: 1px;
   margin-bottom: 1rem;
 }
-
 @keyframes fadeInScale {
   0% {
     opacity: 0;
