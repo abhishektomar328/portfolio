@@ -64,8 +64,6 @@ html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
 .sidebar.closed {
   transform: translateX(100%);
 }
@@ -81,7 +79,6 @@ html, body {
     width: 200px;
   }
 }
-
 
 .section {
   margin-bottom: 40px;
@@ -118,21 +115,6 @@ p, li {
   color: #444;
   line-height: 1.6;
 }
-/* 
-.skills-list {
-  list-style: none;
-  padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.skills-list li {
-  background-color: #f2f2f2;
-  padding: 8px 14px;
-  border-radius: 8px;
-  font-weight: 500;
-} */
 
 .skills-list {
   display: grid;
@@ -255,7 +237,6 @@ a:hover {
   }
 }
 
-
 .animated-gradient-text {
   background: linear-gradient(90deg, #00dbde, #fc00ff, #00dbde);
   background-size: 300% 300%;
@@ -279,12 +260,6 @@ a:hover {
   }
 }
 
-
-
-
-
-
-
 .connect-heading {
   margin-top: 2rem;
   font-size: 1.2rem;
@@ -306,8 +281,6 @@ a:hover {
   border-radius: 8px;
   font-weight: 500;
 }
-
-
 
 @keyframes pulse-icon {
   0% {
@@ -333,12 +306,6 @@ a:hover {
   align-items: center;
   gap: 20px;
 }
-
-
-
-
-
-
 
 .headline-impact {
   font-size: 1.6rem;
